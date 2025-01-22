@@ -5,10 +5,7 @@ export default defineConfig({
         plugins: [sveltekit()],
         server: {
                 port: 3000,
-                allowedHosts: true,
-                fs: {
-                        allow: ['..'],
-                }
+                allowedHosts: true
         }
 
 });
