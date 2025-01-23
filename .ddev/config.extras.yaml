@@ -1,0 +1,11 @@
+
+web_extra_exposed_ports:
+  - name: svelte
+    container_port: 3000
+    http_port: 3001
+    https_port: 3000
+
+web_extra_daemons:
+  - name: "svelte-demo"
+    command: "node build"
+    directory: /var/www/html

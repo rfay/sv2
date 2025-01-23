@@ -1,8 +1,8 @@
 name: sv2
-type: nodejs
+type: generic
 docroot: ""
 php_version: "8.3"
-webserver_type: nginx-nodejs
+webserver_type: generic
 xdebug_enabled: false
 additional_hostnames: []
 additional_fqdns: []
